@@ -3,12 +3,12 @@ const teamMembers = [
     {
         name: "恩恩",
         role: "行政總廚",
-        desc: "獵奇食物創作人。"
+        desc: "除了吃飯睡覺 嗑cp，其他都不會"
     },
     {
         name: "王令",
         role: "副主廚",
-        desc: ""
+        desc: "號稱台東珍妮佛，我家比芭比家還大"
     },
     {
         name: "小廢mymymy",
@@ -18,7 +18,7 @@ const teamMembers = [
     {
         name: "草履蟲",
         role: "高大帥",
-        desc: "    。"
+        desc: "愛好看動漫"
     }
 ];
 
