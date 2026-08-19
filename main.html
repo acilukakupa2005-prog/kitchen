@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>創意廚房 - 食材組合</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 頂部導覽列 Navbar -->
+    <nav class="navbar">
+        <div class="nav-title">創意廚房系統</div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-item active" >主頁</a>
+            <a href="main.html" class="nav-item" >廚房</a>
+        </div>
+    </nav>
+
+    <!-- 主要內容區塊 -->
+    <main class="main-container">
+
+        <!-- 左側：12格食材菜單 (3 column x 4 row) -->
+        <section class="menu-section">
+            <h3 class="section-title">選擇食材 (最多2種)</h3>
+            <div class="menu-grid" id="menuGrid">
+                <!-- 由 JS 動態生成 12 格食材卡片 -->
+            </div>
+        </section>
+
+        <!-- 右側：盤子展示與製作區 -->
+        <section class="plate-section">
+            <div class="plate-wrapper">
+                <!-- 橢圓形盤子 -->
+                <div class="oval-plate">
+                    <!-- 盤內左空格 -->
+                    <div class="plate-slot" id="slot0" data-index="0">
+                        <span class="slot-placeholder">食材 1</span>
+                    </div>
+                    <!-- 盤內右空格 -->
+                    <div class="plate-slot" id="slot1" data-index="1">
+                        <span class="slot-placeholder">食材 2</span>
+                    </div>
+                </div>
+
+                <!-- 右下角製作/試作按鈕 -->
+                <button class="cook-btn" id="cookBtn" onclick="cookDish()">製作</button>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 料理完成彈出Modal畫面 -->
+    <div class="modal-overlay" id="resultModal">
+        <div class="modal-content">
+            <h2>🎉 料理製作完成！</h2>
+            <div class="result-dish" id="resultDishContainer">
+                <!-- 動態顯示合成後的菜色 -->
+            </div>
+            <button class="close-btn" onclick="closeModal()">重置 / 再試一次</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
