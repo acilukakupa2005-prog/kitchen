@@ -5,7 +5,7 @@ const ingredients = [
     { id: 3, name: "三文魚*3", image: "https://static06.hket.com/res/v3/image/content/3650000/3650447/original_01_1024.jpg" },
     { id: 4, name: "肉燥", image: "https://imgproxy.icook.network/safe/rt:fit/w:1200/el:0/q:80/plain/http://tokyo-kitchen.icook.tw.s3.amazonaws.com/uploads/recipe/cover/481006/16ef8a600a458e77.jpg" },
     { id: 5, name: "雞胸肉", image: "https://cdn-general.cybassets.com/media/W1siZiIsIjc0MDUvcHJvZHVjdHMvMzcwNzA1NDIvMTcxMTIzNTg2Ml9kNjlhMmIyNWEyYWY2M2ZjZmFiZS5qcGVnIl0sWyJwIiwidGh1bWIiLCIyMDQ4eDIwNDgiXV0.jpeg?sha=13037daa5da5028d" },
-    { id: 6, name: "油", image: "https://images.unsplash.com/photo-1516684732162-798a0062be99?w=200&auto=format&fit=crop&q=8https://cs-a.ecimg.tw/items/DBAA2IA45445000/000001_1584170917.jpg0" },
+    { id: 6, name: "油", image: "https://cs-a.ecimg.tw/items/DBAA2IA45445000/000001_1584170917.jpg" },
     { id: 7, name: "馬鈴薯", image: "https://www.hansient.com.tw/wp-content/uploads/Solathin%C2%AE-%E9%80%9F%E6%A8%82%E7%BA%96-%E9%A6%AC%E9%88%B4%E8%96%AF%E8%83%9C%E8%82%BD.jpg" },
     { id: 8, name: "飛魚", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScpSaEigNhWJ3MEcy1FrxABjsY_j6f9fYyIYhTxKLBkUrsAquSnuh0O8cl&s=10://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=200&auto=format&fit=crop&q=80" },
     { id: 9, name: "罐頭", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThsO2_OUrXC7N1buuM6dd-b_kEWR2X67FSNEA6cKcv0w&s=10" },
